@@ -74,9 +74,7 @@ h1{
     margin-bottom: 10%;
 
 }
-.menu-mobile{
-    min-height: 6vh;
-}
+
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
     .menu-web {
