@@ -88,7 +88,66 @@ h1{
 @media (min-width: 768px) {
     .menu-web {
         display: block; 
+        color: #fff;
     }
+    
+    .list-nav{
+        padding: 15px;
+    }
+    .list-nav  li{
+        padding: 10px;
+    }
+    .list-nav li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .menu-mobile{
+        display: none;
+    }
+    .menu-mobile .menu-content {
+        display: none;
+    }
+    
+    header{
+        background-image: url('../img/backgroundImage.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        display: flex;
+        min-height: 70vh;
+    }
+    h1{
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 2px;
+        padding: 25px;
+    }
+    .block-text {
+        display: block; 
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        padding: 12px;
+        max-width: 50%;
+    }
+    #saudacoes{
+        color: #A05E4F;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    #corpo-saudacoes{
+        font-size: 0.9rem;
+        font-weight: lighter;
+    }
+    #subtitulo{
+        font-size: 1.2rem;
+    }
+
+
 }
 
 /* Desktops médios (>= 992px) */
