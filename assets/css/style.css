@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-web {
+    display: none;
+}
+header{
+    background-image: url('../img/backgroundImage.png');
+    background-position: 79%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+h1{
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 5px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+#icon-menu{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+
+}
+
+.menu-open{
+    background-color: aqua;
+}
+
+.menu-content {
+    display: none; 
+    position: absolute;
+    top: 3%;
+    left: 15%;
+    background-color: #000;
+    width: 430px; 
+    height: 430px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    
+}
+
+.menu-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-content ul li {
+    margin: 5px 0;
+}
+
+.menu-content ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Tablets em modo retrato (>= 576px) */
+@media (min-width: 576px) {
+    .menu-web {
+        display: none; 
+    }
+
+    
+}
+
+/* Tablets em modo paisagem ou pequenos desktops (>= 768px) */
+@media (min-width: 768px) {
+    .menu-web {
+        display: block; 
+    }
+}
+
+/* Desktops médios (>= 992px) */
+@media (min-width: 992px) {
+   
+}
+
+/* Desktops grandes (>= 1200px) */
+@media (min-width: 1200px) {
+   
+}
+
+/* Desktops extra grandes (>= 1400px) */
+@media (min-width: 1400px) {
+   
+}
