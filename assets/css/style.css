@@ -18,11 +18,12 @@ header{
     justify-content: space-between;
     padding-right: 10px;
     padding-left: 10px;
+
 }
 h1{
     color: #fff;
     font-size: 1.1rem;
-    margin: 5px;
+    margin: 10px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
@@ -30,7 +31,7 @@ h1{
 #icon-menu{
     max-width: 25vw;
     height: 25px;
-    margin: 5px;
+    margin: 10px;
 
 }
 
@@ -48,8 +49,8 @@ h1{
     min-height: 94vh;
     box-shadow: 0 0px 0px rgba(0, 0, 0, 50);
     padding: 30px;
-    
 }
+
 
 .menu-content ul {
     list-style: none;
@@ -73,8 +74,25 @@ h1{
     padding: 5px;
     margin-bottom: 10%;
 
+    
+}
+.block-text-nome-cargo .txt-nome{
+    font-size: 1rem;
+    margin: 0;
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 
+.block-text-nome-cargo .txt-cargo{
+    font-size: 0.8rem;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.row-linguagens img{
+    width: 35px;
+    height: 35px;
+}
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
     .menu-web {
