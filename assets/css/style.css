@@ -94,6 +94,9 @@ h1{
     width: 35px;
     height: 35px;
 }
+.box-msg input, textarea{
+    width: 300px;
+}
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
     .menu-web {

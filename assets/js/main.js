@@ -16,7 +16,18 @@ document.getElementById('menu-toggle').addEventListener('click', function(e) {
 
     }
 
- 
 
 
 });
+
+ 
+function sendEmail(event) {
+    event.preventDefault(); 
+
+    const email = document.getElementById('exampleFormControlInput1').value;
+    const message = document.getElementById('exampleFormControlTextarea1').value;
+
+    const mailtoLink = `mailto:vitoraugustotrb@gmail.com?subject=Olá, ${encodeURIComponent(email)}&body=${encodeURIComponent(message)}`;
+    
+    window.location.href = mailtoLink;
+}
