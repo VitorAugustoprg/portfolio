@@ -108,13 +108,35 @@ h1{
 .footer-txt{
     font-size: 0.8rem;
 }
+.h3-projetos{
+    display: none;
+}
   
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
     .menu-web {
         display: none; 
     }
+    
+    .block-text-nome-cargo .txt-nome{
+        font-size: 1.1rem;
+        margin: 0;
+        font-weight: bolder;
+        letter-spacing: 4px;
+        color: #e0e0e0;
+    }
 
+    .row-linguagens img{
+        width: 45px;
+        height: 45px;
+    }
+    .h3-projetos{
+        display: block;
+        color: #e0e0e0;
+    }
+    .h3-mobile{
+        display: none;
+    }
     
 }
 
