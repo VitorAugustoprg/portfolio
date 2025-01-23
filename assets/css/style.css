@@ -101,7 +101,13 @@ h1{
     height: 35px;
 }
 
-  
+.footer-mobile{
+    background-color: #292929;
+    color: #e0e0e0;
+}
+.footer-txt{
+    font-size: 0.8rem;
+}
   
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
