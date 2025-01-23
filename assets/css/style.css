@@ -21,6 +21,8 @@ header{
     padding-right: 10px;
     padding-left: 10px;
 
+    box-shadow: 2px 2px 40px #e0e0e0;
+
 }
 h1{
     color: #e0e0e0;
@@ -99,6 +101,8 @@ h1{
     height: 35px;
 }
 
+  
+  
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
     .menu-web {
@@ -107,6 +111,7 @@ h1{
 
     
 }
+
 
 /* Tablets em modo paisagem ou pequenos desktops (>= 768px) */
 @media (min-width: 768px) {
@@ -142,7 +147,7 @@ h1{
         min-height: 70vh;
     }
     h1{
-        color: #fff;
+        color: #e0e0e0;
         font-size: 1rem;
         font-weight: bold;
         font-family: 'Poppins', sans-serif;
@@ -166,6 +171,7 @@ h1{
     #corpo-saudacoes{
         font-size: 0.9rem;
         font-weight: lighter;
+        color: #e0e0e0;
     }
     #subtitulo{
         font-size: 1.2rem;
