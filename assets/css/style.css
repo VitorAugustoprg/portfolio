@@ -4,7 +4,9 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
+body{
+    background-color: #121212;
+}
 .menu-web {
     display: none;
 }
@@ -21,7 +23,7 @@ header{
 
 }
 h1{
-    color: #fff;
+    color: #e0e0e0;
     font-size: 1.1rem;
     margin: 10px;
     font-weight: bold;
@@ -82,6 +84,7 @@ h1{
     margin: 0;
     font-weight: bolder;
     letter-spacing: 2px;
+    color: #e0e0e0;
 }
 
 .block-text-nome-cargo .txt-cargo{
@@ -89,14 +92,13 @@ h1{
     width: 100%;
     font-weight: bold;
     letter-spacing: 2px;
+    color: #e0e0e0;
 }
 .row-linguagens img{
     width: 35px;
     height: 35px;
 }
-.box-msg input, textarea{
-    width: 300px;
-}
+
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
     .menu-web {
