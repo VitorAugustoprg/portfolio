@@ -117,6 +117,9 @@ h1{
 .secao-desktop-medio{
     display: none;
 }
+.main-pc{
+    display: none;
+}
   
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
@@ -240,6 +243,15 @@ h1{
     }
     .h3-projetos{
         display: none;
+    }
+    .main-mobile{
+        display: none;
+    }
+    .main-pc{
+        display: block;
+    }
+    .corpo-projeto{
+        color: #e0e0e0;
     }
 }
 
