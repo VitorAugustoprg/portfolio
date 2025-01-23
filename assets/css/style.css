@@ -111,6 +111,9 @@ h1{
 .h3-projetos{
     display: none;
 }
+.secao-desktop-paisagem {
+    display: none;
+}
   
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
@@ -164,7 +167,9 @@ h1{
     .menu-mobile .menu-content {
         display: none;
     }
-    
+    .secao-mobile{
+        display: none;
+    }
     header{
         background-image: url('../img/backgroundImage.png');
         background-position: center;
@@ -203,6 +208,10 @@ h1{
     }
     #subtitulo{
         font-size: 1.2rem;
+    }
+
+    .secao-desktop-paisagem {
+        display: flex;
     }
 
 
