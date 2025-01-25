@@ -1,6 +1,6 @@
 .titulo-playffair-italic {
     font-family: "Playfair Display", serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: bold;
     font-style: italic;
     letter-spacing: 5px;
@@ -14,7 +14,7 @@
   }
   .titulo-playffair-corpo {
     font-family: "Playfair Display", serif;
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: 500;
     font-style: normal;
     letter-spacing: 2px;

@@ -112,6 +112,9 @@ h1{
 .main-pc{
     display: none;
 }
+.main-mobile{
+    display: block;
+}
   
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
@@ -120,7 +123,7 @@ h1{
     }
     
     .block-text-nome-cargo .txt-nome{
-        font-size: 1.1rem;
+        font-size: 100%;
         margin: 0;
         font-weight: bolder;
         letter-spacing: 4px;
@@ -180,21 +183,21 @@ h1{
     h1{
         color: #A05E4F;
         font-size: 1.1rem;
-        margin: 10px;
+        margin: 4%;
         font-weight: bold;
         letter-spacing: 2px;
     }
     .block-text {
         display: block; 
         position: absolute;
-        top: 25%;
+        top: 15%;
         left: 10%;
-        padding: 12px;
-        max-width: 50%;
+        padding: 0;
+        max-width: 55%;
     }
     #saudacoes{
         color: #A05E4F;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bold;
     }
     #corpo-saudacoes{
@@ -247,7 +250,7 @@ h1{
         color: #A05E4F;
         font-style: italic;
         font-size: 1.3rem;
-   
+        margin: 3%;
 
     }
     .menu-web ul li{
