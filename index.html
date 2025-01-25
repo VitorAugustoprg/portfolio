@@ -26,20 +26,25 @@
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
   rel="stylesheet"
 />
+<!-- FONTS -->
+ <link rel="stylesheet" href="assets/css/padroes.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Portfólio Vitor Augusto</title>
 </head>
 <body>
 
 <header>
-    <h1>VITOR</h1>
+    <h1 class="titulo-playffair-italic">VITOR</h1>
 
     <nav class="menu-mobile">
         <a href="#" id="menu-toggle" onclick="animate__fadeInTopRight">
             <img src="assets/icons/icons8-cardápio-50 1.png" alt="" id="icon-menu">
         </a>
 
-        <div class="menu-content" >
-            <ul>
+        <div class="menu-content">
+            <ul class="titulo-playffair-normal">
                 <li><a href="#"><i class="bi bi-person-fill"></i>&nbsp Home</a></li>
                 <li><a href="#"><i class="bi bi-laptop"></i>&nbsp Projetos</a></li>
                 <li><a href="#"><i class="bi bi-envelope"></i>&nbsp Contato</a></li>
@@ -50,7 +55,7 @@
     </nav>
 
     <nav class="menu-web">
-        <ul class="d-flex flex-row list-nav">
+        <ul class="d-flex flex-row list-nav titulo-playffair-normal">
             <li class="nav-item"><a href="#">Sobre</a></li>
             <li class="nav-item"><a href="#">Projetos</a></li>
             <li class="nav-item"><a href="#">Contatos</a></li>
@@ -58,10 +63,10 @@
         </ul>
 
         <div class="block-text">
-            <p id="saudacoes">Olá!</p>
+            <p id="saudacoes" class="titulo-playffair-normal">Olá!</p>
 
-            <p id="subtitulo"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=poppins&pause=1000&color=FFFFFF&width=435&lines=Eu+sou+o+Vitor+Augusto" alt="Typing SVG" /></a></p>
-            <p id="corpo-saudacoes">Lorem ipsum dolor sit amet consectetur adipisicing elitsci voluptates accusantium quas? Cupiditate amet porro nulla. Eveniet deleniti excepturi alias vel placeat.</p>
+            <p id="subtitulo"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=poppins&pause=1000&color=e0e0e0&width=435&lines=Eu+sou+o+Vitor+Augusto" alt="Typing SVG" /></a></p>
+            <p class="titulo-playffair-corpo">Lorem ipsum dolor sit amet consectetur adipisicing elitsci voluptates accusantium quas? Cupiditate amet porro nulla. Eveniet deleniti excepturi alias vel placeat.</p>
         </div>
     </nav>
 
@@ -70,15 +75,15 @@
 <section class="container">
     <!-- ARÉA MOBILE -->
         <div class="row secao-mobile mt-5 ">
-            <div class="col-5">
+            <div class="col-5 ms-4">
                 <div class="d-flex ">
-                    <img  src="assets/img/profile-pic-redondo.png" alt="" >
+                    <img  src="assets/img/foto-perfil-quadrado-branco.png" alt="" >
                 </div>
             </div>
             <div class="col-5">
                 <div class="block-text-nome-cargo d-flex flex-column">
-                    <P class="text-center txt-nome">VITOR AUGUSTO</p>
-                    <p class="text-center txt-cargo">Dev Front-end Jr</p>
+                    <P class="text-center txt-nome titulo-playffair-normal">VITOR AUGUSTO</p>
+                    <p class="text-center txt-cargo titulo-playffair-subtitulo">Dev Front-end Jr</p>
                 </div>
                 <div class="row row-linguagens">
                     <div class="col">
@@ -93,7 +98,7 @@
                 </div>
                 
             </div>
-            <p class="text-justify mt-3 ms-4 text-justify" style="color: #e0e0e0;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore perspiciatis culpa, odio quaerat, fugiat amet cumque nemo dolores distinctio et laborum sapiente odit quis ducimus fuga, provident beatae rerum nesciunt!</p>
+            <p class="text-justify mt-3 ms-4 text-justify titulo-playffair-corpo" style="color: #e0e0e0;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore perspiciatis culpa, odio quaerat, fugiat amet cumque nemo dolores distinctio et laborum sapiente odit quis ducimus fuga, provident beatae rerum nesciunt!</p>
         </div>
      <!-- FIM DA ARÉA MOBILE -->
 
@@ -102,7 +107,7 @@
       <div class="row secao-desktop-paisagem mt-5  flex-row">
         <div class="col-5">
             <div class="d-flex">
-                <img  src="assets/img/profile-pic-redondo.png" alt="" >
+                <img  src="assets/img/foto-perfil-quadrado-branco.png" alt="" >
             </div>
         </div>
         <div class="col-6">
@@ -131,15 +136,15 @@
 
    <!-- ARÉA DESKTOP/TABLET MÉDIOS -->
    <div class="row secao-desktop-medio mt-5 flex-row">
-    <div class="col-5">
+    <div class="col-5 ms-4">
         <div class="d-flex">
-            <img  src="assets/img/profile-pic-quadrado.png" alt="" >
+            <img  src="assets/img/foto-perfil-quadrado-branco.png" alt="" width="300px" height="300px">
         </div>
     </div>
     <div class="col-6">
         <div class="block-text-nome-cargo d-flex flex-column">
-            <P class="text-center txt-nome">VITOR TESTE</p>
-            <p class="text-center txt-cargo">Dev Front-end Jr</p>
+            <P class="text-center txt-nome titulo-playffair-normal">VITOR AUGUSTO</p>
+            <p class="text-center txt-cargo titulo-playffair-subtitulo">Dev Front-end Jr</p>
         </div>
 
         <div class="row row-linguagens">
@@ -155,7 +160,7 @@
         </div>
         
     </div>
-    <p class="text-justify mt-3 ms-4 text-justify" style="color: #e0e0e0;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore perspiciatis culpa, odio quaerat, fugiat amet cumque nemo dolores distinctio et laborum sapiente odit quis ducimus fuga, provident beatae rerum nesciunt!</p>
+    <p class="text-justify mt-3 ms-4 text-justify titulo-playffair-corpo" style="color: #e0e0e0;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel illum aspernatur cumque minima corporis. Optio laborum vitae excepturi. Voluptas repudiandae impedit incidunt? Perspiciatis nesciunt earum officiis, maiores iusto veniam dignissimos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore perspiciatis culpa, odio quaerat, fugiat amet cumque nemo dolores distinctio et laborum sapiente odit quis ducimus fuga, provident beatae rerum nesciunt!</p>
 </div>
 <!-- FIM DA ARÉA DESKTOP -->
 </section>
