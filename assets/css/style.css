@@ -47,7 +47,7 @@ h1{
     position: absolute;
     top: auto;
     left: 50%;
-    background-color: #000000cc;
+    background-color: #000000ec;
     min-width: 50vw; 
     height: 100vh;
     box-shadow: 0 0px 0px rgba(0, 0, 0, 50);
@@ -114,6 +114,7 @@ h1{
 }
 .main-mobile-segundo{
     display: block;
+    color: #e0e0e0;
 }
 .main-mobile{
     display: block;
@@ -254,7 +255,7 @@ h1{
         display: none;
     }
     .main-mobile{
-        display: none;
+        display: block;
     }
     .main-pc{
         display: block;
