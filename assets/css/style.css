@@ -112,6 +112,9 @@ h1{
 .main-pc{
     display: none;
 }
+.main-mobile-segundo{
+    display: block;
+}
 .main-mobile{
     display: block;
 }
@@ -159,7 +162,9 @@ h1{
         display: block; 
         color: #e0e0e0;
     }
-    
+    .main-mobile-segundo{
+        display: block;
+    }
     .list-nav{
         padding: 15px;
     }
