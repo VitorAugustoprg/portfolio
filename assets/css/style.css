@@ -115,6 +115,14 @@ h1{
 .main-mobile{
     display: block;
 }
+.block-text-pc {
+    display: none; 
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    padding: 0;
+    max-width: 50%;
+}
   
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
@@ -190,7 +198,7 @@ h1{
     .block-text {
         display: block; 
         position: absolute;
-        top: 15%;
+        top: 20%;
         left: 10%;
         padding: 0;
         max-width: 55%;
@@ -261,6 +269,22 @@ h1{
     .menu-web ul li a:hover{
         color: #A05E4F;
         font-size: 0.8rem;
+    }
+    .block-text {
+        display: none; 
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        padding: 0;
+        max-width: 55%;
+    }
+    .block-text-pc {
+        display: block; 
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        padding: 0;
+        max-width: 50%;
     }
 }
 
