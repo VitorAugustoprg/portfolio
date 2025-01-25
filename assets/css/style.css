@@ -177,7 +177,7 @@ h1{
         display: none;
     }
     .secao-mobile{
-        display: none;
+        display: flex;
     }
     header{
         background-image: url('../img/backgroundImage.png');
@@ -234,6 +234,9 @@ h1{
 @media (min-width: 992px) {
     .secao-desktop-medio{
         display: flex;
+    }
+    .secao-mobile{
+        display: none;
     }
     .secao-desktop-paisagem {
         display: none;
