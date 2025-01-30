@@ -127,6 +127,9 @@ h1{
     padding: 0;
     max-width: 50%;
 }
+.overflow{
+    overflow: hidden;
+}
   
 /* Tablets em modo retrato (>= 576px) */
 @media (min-width: 576px) {
@@ -240,6 +243,9 @@ h1{
 
 /* Desktops médios (>= 992px) */
 @media (min-width: 992px) {
+    header{
+        min-height: 80vh;
+    }
     .secao-desktop-medio{
         display: flex;
     }
@@ -282,7 +288,7 @@ h1{
         font-size: 0.8rem;
     }
     .block-text {
-        display: none; 
+        display: block; 
         position: absolute;
         top: 20%;
         left: 10%;
@@ -290,9 +296,9 @@ h1{
         max-width: 55%;
     }
     .block-text-pc {
-        display: block; 
+        display: none; 
         position: absolute;
-        top: 20%;
+        top: 90%;
         left: 10%;
         padding: 0;
         max-width: 50%;
