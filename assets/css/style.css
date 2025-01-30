@@ -197,7 +197,7 @@ h1{
         background-size: cover;
     
         display: flex;
-        min-height: 95vh;
+        min-height: 92vh;
     }
     h1{
         color: #A05E4F;
@@ -246,7 +246,7 @@ h1{
 /* Desktops médios (>= 992px) */
 @media (min-width: 992px) {
     header{
-        min-height: 80vh;
+        min-height: 70vh;
     }
     .secao-desktop-medio{
         display: flex;
