@@ -88,10 +88,7 @@ h1{
 .block-text-nome-cargo .txt-cargo{
     color: #e0e0e0;
 }
-.row-linguagens img{
-    width: 35px;
-    height: 35px;
-}
+
 
 .footer-mobile{
     background-color: #292929;
@@ -128,6 +125,11 @@ h1{
     max-width: 50%;
 }
 .overflow{
+    overflow: hidden;
+}
+.row-linguagens img{
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
   
