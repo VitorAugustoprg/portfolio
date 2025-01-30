@@ -192,11 +192,11 @@ h1{
         background-size: cover;
     
         display: flex;
-        min-height: 70vh;
+        min-height: 95vh;
     }
     h1{
         color: #A05E4F;
-        font-size: 1.1rem;
+        font-size: 0.7rem;
         margin: 4%;
         font-weight: bold;
         letter-spacing: 2px;
@@ -208,11 +208,13 @@ h1{
         left: 10%;
         padding: 0;
         max-width: 55%;
+
     }
     #saudacoes{
         color: #A05E4F;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: bold;
+        margin: 0;
     }
     #corpo-saudacoes{
         font-size: 0.9rem;
